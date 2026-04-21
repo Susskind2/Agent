@@ -1,0 +1,65 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Runtime / local data
+uploads/
+data/
+workspace/
+agents/workspace/
+
+# Docker / container leftovers
+postgres_data/
+redis_data/
+etcd_data/
+minio_data/
+milvus_data/
+attu_data/
+
+# Model / cache artifacts
+models/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
