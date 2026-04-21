@@ -363,9 +363,7 @@ docker run --rm -p 8001:8001 --env-file .env standalone-deep-agents
 
 ---
 
-## Roadmap / TODO
-
-建议后续优先推进的方向：
+## TODO
 
 1. 把 RAG 正式接入 `/api/v1/chat`
    当前文档已经能完成 ETL 和向量入库，但聊天侧还没有消费知识库。
@@ -381,11 +379,3 @@ docker run --rm -p 8001:8001 --env-file .env standalone-deep-agents
 
 5. 增加真正的生产化能力
    比如鉴权、日志聚合、监控指标、容器化 app service、配置分层等。
-
----
-
-## TODO
-
-- 未完成：
-  - RAG 闭环
-  - Redis 真正接线
